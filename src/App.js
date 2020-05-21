@@ -14,12 +14,11 @@ function App() {
             <h1 className='name-title'>Matthew Vegh</h1>
             <p className='subtitle'>Full-Stack Web Developer</p>
           </div>
-          <nav clasNames='nav-buttons'>
-            <a clasNames="nav-link" href="#aboutme">About</a>
+          <nav className='nav-buttons'>
+            <a className="nav-link" href="#aboutme">About</a>
             <a className="nav-link" href="#portfolio">Portfolio</a>
           </nav>
           <div id="contact-box">
-            <h2 clasNames="title forContact">Contact</h2>
             <div className="contactlinks">
               <a clasNames="email" href="mailto:mdv240@gmail.com" target="_blank"><i className="fas fa-envelope-square"></i></a>
               <a className="github" href="https://github.com/MattVegh" target="_blank"><i className="fab fa-github-square"></i></a>
