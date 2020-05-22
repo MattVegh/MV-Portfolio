@@ -7,6 +7,8 @@ html,body {
   padding:0;
 }
 
+/* Side Nav */
+
 .side-header {
 width: 25%;
 height: 100%;
@@ -43,8 +45,48 @@ flex-direction: column;
 align-items: center;
 }
 
+.nav-link:hover {
+  color: white;
+  font-weight: bold;
+}
+  
+.nav-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  line-height: 35px;
+  margin: 40px -40px;
+} 
+  
+.head-shot {
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+}
+
+.contactlinks {
+  padding: 20px;
+  display: flex;
+  }
+  
+  .contactlinks a:link, .contactlinks a:visited {
+  color: rgb(225, 244, 255);
+  font-size: 25px;
+  padding: 5px;
+  text-decoration: none;
+  line-height: 26px;
+  }
+  
+  .contactlinks a:hover {
+  font-size: 27px;
+  color: white;
+  }
+  
+/* Body */
+
 body {
-background-color: white;
+background-color: rgb(235, 245, 252);
 color: rgb(7, 14, 56);
 }
 
@@ -53,6 +95,12 @@ width: 75%;
 margin-left: 25%;
 display: flex;
 flex-direction: column;
+}
+
+#aboutme {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
 }
 
 main header, main h2 {
@@ -65,26 +113,6 @@ main header, main h2 {
 main section {
 font-size: 16px;
 font-family: 'arimo', sans-serif;
-}
-
-.nav-link:hover {
-color: white;
-font-weight: bold;
-}
-
-.nav-buttons {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-width: 100%;
-line-height: 35px;
-margin: 40px -40px;
-} 
-
-.head-shot {
-width: 155px;
-height: 155px;
-border-radius: 50%;
 }
 
 .projects-container {
@@ -115,22 +143,4 @@ color: rgb(11, 62, 109);
 .app-link:hover, .github-link:hover {
 color: rgb(66, 28, 102);
 font-weight: bold;
-}
-
-.contactlinks {
-padding: 20px;
-display: flex;
-}
-
-.contactlinks a:link, .contactlinks a:visited {
-color: rgb(225, 244, 255);
-font-size: 25px;
-padding: 5px;
-text-decoration: none;
-line-height: 26px;
-}
-
-.contactlinks a:hover {
-font-size: 27px;
-color: white;
 }
