@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route, Switch } from 'react-router-dom'
 import './App.css';
 import SideHeader from './components/SideHeader'
 import AboutMe from './components/AboutMe'
@@ -10,9 +11,16 @@ function App() {
       <SideHeader />
 
       <main>
-        <AboutMe />
-        <Projects />
+        <Switch>
+          <Route exact path='/'>
+            <AboutMe />
+          </Route>
 
+          <Route path='/projects'>
+            <Projects />
+          </Route>
+        </Switch>
+        
       </main>
     </div>
   );

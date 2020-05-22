@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function SideHeader() {
     return (
@@ -13,12 +14,12 @@ export default function SideHeader() {
                     <p className='subtitle'>Full-Stack Web Developer</p>
                 </div>
                 <nav className='nav-buttons'>
-                    <a className="nav-link" href="#aboutme">About</a>
-                    <a className="nav-link" href="#portfolio">Portfolio</a>
+                    <Link className="nav-link" to='/'>About</Link>
+                    <Link className="nav-link" to='/projects'>Portfolio</Link>
                 </nav>
                 <div id="contact-box">
                     <div className="contactlinks">
-                        <a clasNames="email" href="mailto:mdv240@gmail.com" target="_blank"><i className="fas fa-envelope-square"></i></a>
+                        <a className="email" href="mailto:mdv240@gmail.com" target="_blank"><i className="fas fa-envelope-square"></i></a>
                         <a className="github" href="https://github.com/MattVegh" target="_blank"><i className="fab fa-github-square"></i></a>
                         <a className="linkedin" href="https://www.linkedin.com/in/mattvegh/" target="_blank"><i className="fab fa-linkedin"></i></a>
                     </div>
