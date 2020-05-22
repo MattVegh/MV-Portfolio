@@ -12,20 +12,9 @@ function App() {
       <main>
         <AboutMe />
         <Projects />
-        
-              <div className="popup-box">
-                <span className="helper"></span>
-                <div className="popup-helper">
-                  <div className="popup-close-button">&times;</div>
-                  <div className="popup-img-container">
-                    <a className="popup-img-link" href="">
-                      <img className="popup-ss app-ss" alt="pop up image" src="." />
-                    </a>
-                </div>
-                  </div>
-                </div>
-    </main>
-            </div>
+
+      </main>
+    </div>
   );
 }
 
