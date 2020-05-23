@@ -10,3 +10,11 @@
     font-family: 'Didact Gothic', sans-serif;
     line-height: 2;
   }
+
+.link-from-about {
+    color: rgb(7, 14, 56);
+}
+
+.link-from-about:hover {
+    font-weight: bold;
+}
