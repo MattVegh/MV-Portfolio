@@ -1,0 +1,41 @@
+#projects {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+
+.portfolio-title {
+  font-size: 18px;
+  font-family: 'Didact Gothic', sans-serif;
+  text-align: center;
+  line-height: 2;
+}
+
+.projects-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+}
+    
+.img-container {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+    
+.app-ss {
+  width: 100%;
+  height: auto;
+}
+    
+.app-link, .github-link {
+  text-decoration: none;
+  color: rgb(11, 62, 109);
+}
+    
+.app-link:hover, .github-link:hover {
+  color: rgb(66, 28, 102);
+  font-weight: bold;
+}

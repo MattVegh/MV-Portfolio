@@ -1,0 +1,94 @@
+@media screen and (max-width: 1000px) {
+    .side-header {
+      display: none;
+    }
+  
+    .top-header {
+      height: 5%;
+      width: 100%;
+      background-color: rgb(7, 14, 56);
+      position: fixed;
+    }
+  
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .top-header {
+      display: none;
+    }
+  }
+  
+  
+  
+  .side-header {
+  height: 100%;
+  background-color: rgb(7, 14, 56);
+  position: fixed;
+  }
+  
+  .inner-side-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px;
+  height: 100%;
+  position: relative;
+  }
+  
+  .name-title, .subtitle, nav, .nav-home, .nav-link {
+  color: rgb(225, 244, 255);
+  font-family: 'Didact Gothic', sans-serif;
+  text-decoration: none;
+  }
+  
+  .name-title {
+  margin-bottom: 0;
+  }
+  
+  .subtitle {
+  margin-top: 5px;
+  }
+  
+  .title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .nav-link:hover {
+    color: white;
+    font-weight: bold;
+  }
+    
+  .nav-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    line-height: 35px;
+    margin: 40px -40px;
+  } 
+    
+  .head-shot {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+  }
+  
+  .contactlinks {
+    padding: 20px;
+    display: flex;
+    }
+    
+    .contactlinks a:link, .contactlinks a:visited {
+    color: rgb(225, 244, 255);
+    font-size: 25px;
+    padding: 5px;
+    text-decoration: none;
+    line-height: 26px;
+    }
+    
+    .contactlinks a:hover {
+    font-size: 27px;
+    color: white;
+    }

@@ -1,9 +1,10 @@
 import React from 'react'
+import './AboutMe.css'
 
 export default function AboutMe() {
     return (
         <section id="aboutme">
-            <h2 class="title-for-aboutMe">About Me</h2>
+            <h2 class="about-title">About Me</h2>
             <p>I'm Currently in Austin, TX by way of Cleveland. I'm a graduate of Thinkful's FullStack Web
             Developer
             program.

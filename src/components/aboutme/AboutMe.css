@@ -1,0 +1,12 @@
+#aboutme {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+
+.about-title {
+    font-size: 18px;
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    line-height: 2;
+  }

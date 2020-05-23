@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom'
 import './App.css';
-import SideHeader from './components/SideHeader'
-import TopHeader from './components/TopHeader'
-import AboutMe from './components/AboutMe'
-import Projects from './components/Projects'
+import SideHeader from './Headers/SideHeader'
+import TopHeader from './Headers/TopHeader'
+import AboutMe from './components/aboutme/AboutMe'
+import Projects from './components/projects/Projects'
 
 function App() {
   return (

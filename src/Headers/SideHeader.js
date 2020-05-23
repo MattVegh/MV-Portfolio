@@ -1,9 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Headers.css'
 
-export default function TopHeader() {
+export default function SideHeader() {
     return (
-        <div className='top-header'>
+        <div className='side-header'>
+            <div className='inner-side-header'>
+                <div className="headshot-container">
+                    <img src="https://user-images.githubusercontent.com/49329279/73220721-bcc6e180-4124-11ea-9d7c-16930e5c9a99.JPG"
+                        alt="head shot" class="head-shot" />
+                </div>
+                <div className='title-container'>
+                    <h1 className='name-title'>Matthew Vegh</h1>
+                    <p className='subtitle'>Full-Stack Web Developer</p>
+                </div>
                 <nav className='nav-buttons'>
                     <Link className="nav-link" to='/'>About</Link>
                     <Link className="nav-link" to='/projects'>Portfolio</Link>
@@ -15,7 +25,7 @@ export default function TopHeader() {
                         <a className="linkedin" href="https://www.linkedin.com/in/mattvegh/" target="_blank"><i className="fab fa-linkedin"></i></a>
                     </div>
                 </div>
-            
+            </div>
         </div>
     )
 }
