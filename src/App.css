@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+
+
 html,body {
   margin:0;
   padding:0;
@@ -24,3 +26,8 @@ font-family: 'arimo', sans-serif;
 }
 
 
+@media screen and (max-width: 1000px) {
+  main { 
+    margin-left: 0;
+  }
+}
