@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './AboutMe.css'
 
 export default function AboutMe() {
@@ -13,6 +14,8 @@ export default function AboutMe() {
             quite the jump. But as I continue to learn I find that I'm loving the creative freedom coding gives you.
             I am currently using what I've learned doing freelance and personal work.
             </p>
+
+            <Link to='/projects' className='link-from-about'>Check out what I've been working on</Link>
         </section>
     )
 }

@@ -4,8 +4,13 @@
     padding: 25px;
   }
 
+.project {
+  margin-top: 20px;
+  border-bottom: 2px solid rgb(11, 62, 109);
+}
+
 .portfolio-title {
-  font-size: 18px;
+  font-size: 25px;
   font-family: 'Didact Gothic', sans-serif;
   text-align: center;
   line-height: 2;

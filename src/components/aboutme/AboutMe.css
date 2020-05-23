@@ -2,15 +2,11 @@
     display: flex;
     flex-direction: column;
     padding: 25px;
+    text-align: center;
   }
 
 .about-title {
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Didact Gothic', sans-serif;
-    text-align: center;
     line-height: 2;
   }
-
-.about-p {
-    text-align: center;
-}
