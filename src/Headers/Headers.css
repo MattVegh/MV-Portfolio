@@ -18,7 +18,35 @@
     }
   }
   
-  
+.top-nav-buttons {
+      display: flex;
+      justify-content: space-between;
+  }
+
+.top-contactlinks {
+    display: flex;
+    }
+
+.top-nav-link {
+    margin-left: 5px;
+}
+
+.top-nav-link-box {
+    padding-top: 10px;
+}
+    
+.top-contactlinks a:link, .top-contactlinks a:visited {
+    color: rgb(225, 244, 255);
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+    line-height: 26px;
+    }
+
+.top-contactlinks a:hover {
+    font-size: 22px;
+    color: white;
+}
   
   .side-header {
   height: 100%;
@@ -35,7 +63,12 @@
   position: relative;
   }
   
-  .name-title, .subtitle, nav, .nav-home, .nav-link {
+.name-title,
+.subtitle,
+nav,
+.nav-home,
+.nav-link,
+.top-nav-link {
   color: rgb(225, 244, 255);
   font-family: 'Didact Gothic', sans-serif;
   text-decoration: none;
@@ -55,7 +88,7 @@
   align-items: center;
   }
   
-  .nav-link:hover {
+.nav-link:hover, .top-nav-link:hover {
     color: white;
     font-weight: bold;
   }
