@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Projects() {
     return (
-        <section id="portfolio">
-            <h2 className="title forPortfolio">Porfolio</h2>
+        <section id="projects">
+            <h2 className="title-for-portfolio">Porfolio</h2>
             <div className="projects-container">
                 <div className="project">
                     <a className="app-link" target="_blank" href="https://roll-a-char-app.mdv240.now.sh/">Roll A
