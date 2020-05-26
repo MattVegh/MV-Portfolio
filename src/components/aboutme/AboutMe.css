@@ -11,10 +11,11 @@
     line-height: 2;
   }
 
-.link-from-about {
-    color: rgb(7, 14, 56);
+.link-from-about, .link-to-resume {
+  margin-top: 10px;
+  color: rgb(7, 14, 56);
 }
 
-.link-from-about:hover {
+.link-from-about:hover, .link-to-resume:hover {
     font-weight: bold;
 }
