@@ -1,0 +1,25 @@
+#contactInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+.contactInfo-links a:link, .contactInfo-links a:visited {
+    color: rgb(7, 14, 56);;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+}
+    
+.contactInfo-links a:hover {
+    font-weight: bold;
+}
+
+.notasponser {
+    font-size: 12px;
+}

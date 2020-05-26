@@ -17,6 +17,7 @@ export default function SideHeader() {
                 <nav className='nav-buttons'>
                     <Link className="nav-link" to='/'>About</Link>
                     <Link className="nav-link" to='/projects'>Projects</Link>
+                    <Link className='nav-link' to='/contact'>Connect with me!</Link>
                 </nav>
                 <div id="contact-box">
                     <div className="contactlinks">

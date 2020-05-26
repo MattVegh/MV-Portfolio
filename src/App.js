@@ -5,6 +5,7 @@ import SideHeader from './Headers/SideHeader'
 import TopHeader from './Headers/TopHeader'
 import AboutMe from './components/aboutme/AboutMe'
 import Projects from './components/projects/Projects'
+import ContactInfo from './components/contactInfo/ContactInfo'
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
 
           <Route path='/projects'>
             <Projects />
+          </Route>
+
+          <Route path='/contact'>
+            <ContactInfo />
           </Route>
         </Switch>
 

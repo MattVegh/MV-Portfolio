@@ -9,6 +9,7 @@ export default function TopHeader() {
                 <div className='top-nav-link-box'>
                     <Link className="top-nav-link" to='/'>About</Link>
                     <Link className="top-nav-link" to='/projects'>Projects</Link>
+                    <Link className='top-nav-link' to='/contact'>Contact</Link>
                 </div>
                 <div className='top-contactlinks'>
                     <a className="email" href="mailto:mdv240@gmail.com" target="_blank"><i className="fas fa-envelope-square"></i></a>
