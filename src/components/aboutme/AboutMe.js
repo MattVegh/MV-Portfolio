@@ -10,8 +10,8 @@ export default function AboutMe() {
                 I'm Currently in Austin, Texas by way of Cleveland. I'm a graduate of Thinkful's FullStack Web
             Developer program.</p>
             <p>I am a Full stack developer skilled in JavaScript, React, HTML and CSS with a love for front-end design and analytical thinking.</p>
-            <p>Background in retail management provided me with a proven track-record of effortless client relations and working well in fast-paced environments. 
-                Excited to join a team of like-minded professionals who enjoy being challenged on a daily basis.  </p>
+            <p>My background in retail management has provided me with a proven track-record of effortless client relations and working well in fast-paced environments. 
+                I'm excited to join a team of like-minded professionals who enjoy being challenged on a daily basis.  </p>
 
 
 
